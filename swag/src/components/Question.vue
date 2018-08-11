@@ -41,13 +41,23 @@ export default {
             ]
         },{
             id: 1,
-            text: "How hard is it to invent questions?",
+            text: "How many time can you subtract 10 from 100?",
             points: 20,
             options: [
-                { id: 0, text: "Actually pretty easy.", is_correct: false },
-                { id: 1, text: "Not that hard.", is_correct: false },
-                { id: 2, text: "You need at least to PhD in Questionmaking for it.", is_correct: false },
-                { id: 3, text: "Nearly impossible. Took me haöf an hour to come up with this question alone.", is_correct: true }
+                { id: 0, text: "Twice.", is_correct: false },
+                { id: 1, text: "Once.", is_correct: true },
+                { id: 2, text: "Four Times.", is_correct: false },
+                { id: 3, text: "Ten Times.", is_correct: false }
+            ]
+        },{
+            id: 2,
+            text: "1. Divide 50 by half and add 20?",
+            points: 20,
+            options: [
+                { id: 0, text: "45.", is_correct: false },
+                { id: 1, text: "70.", is_correct: false },
+                { id: 2, text: "120.", is_correct: true },
+                { id: 3, text: "30.", is_correct: false }
             ]
         }],
 
