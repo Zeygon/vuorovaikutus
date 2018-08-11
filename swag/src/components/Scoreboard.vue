@@ -1,6 +1,12 @@
-<template>
+ <template>
   <div class="hello">
-      <h2>You achieved {{score}} points!</h2>
+      <div class="container d-flex flex-column align-items-center ">
+
+      <h2>Hey Dude, you achieved <span class="text-success">{{score}}</span> points! Therefore your total sums up to 1460 points.</h2>
+      
+      <router-link class="btn btn-primary btn-lg" to="/">Leave Game</router-link>
+      
+      </div>
     
   </div>
 </template>
@@ -20,18 +26,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.container{
+   padding-top: 40vh;
 }
 </style>

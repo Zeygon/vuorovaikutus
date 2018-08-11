@@ -1,18 +1,22 @@
-<template>
+ <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-  <router-link to="Question">Start Quiz</router-link>
+      <div class="container d-flex flex-column align-items-center ">
+<h2>You're in team <span class="text-green">Magnificent Magnolia</span>. Once you're team is ready start the game. Qapla'!</h2>
+      <router-link class="btn btn-primary btn-lg" to="Question">Make it so.</router-link>
+      
+      </div>
+    
   </div>
 </template>
 
 <script>
+import store from '../store.js'
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
-
+      msg: 'A monad is a monoid in the category of endofunctors!',
+      score: store.data.score
     }
   }
 }
@@ -20,8 +24,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.option {
-  font-weight: normal;
+.container{
+   padding-top: 40vh;
 }
-
 </style>
