@@ -41,13 +41,13 @@ export default {
             ]
         },{
             id: 1,
-            text: "How many time can you subtract 10 from 100?",
+            text: "Which rocket is the tallest?",
             points: 20,
             options: [
-                { id: 0, text: "Twice.", is_correct: false },
-                { id: 1, text: "Once.", is_correct: true },
-                { id: 2, text: "Four Times.", is_correct: false },
-                { id: 3, text: "Ten Times.", is_correct: false }
+                { id: 0, text: "Ariane 4", is_correct: false },
+                { id: 1, text: "Saturn V", is_correct: true },
+                { id: 2, text: "Falcon .", is_correct: false },
+                { id: 3, text: "Vega", is_correct: false }
             ]
         },{
             id: 2,
